@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<Context path="Photographer_SE04772">
+    <Environment name="serverName" type="java.lang.String" value="localhost"/>
+    <Environment name="dbName" type="java.lang.String" value="photographer"/>
+    <Environment name="portNumber" type="java.lang.String" value="1433"/>
+    <Environment name="username" type="java.lang.String" value="sa"/>
+    <Environment name="password" type="java.lang.String" value="123456"/>
+    <Environment name="images" type="java.lang.String" value="images/"/>
+    <Environment name="calendar" type="java.lang.String" value="calendar.png"/>
+    <Environment name="timeIcon" type="java.lang.String" value="time.png"/>
+</Context>

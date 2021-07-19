@@ -1,0 +1,44 @@
+body{
+    font-family:sans-serif;
+    background-color: #E7E7E7;
+    font-size: 20px;
+}
+
+form{
+    width: 70%;
+/*    margin: 0 0 30px 0;*/
+}
+
+.form-label{
+    margin-left: 5px;
+    width: 20%;
+    font-size: 20px
+}
+
+.form-control{
+    width: 100%;
+    font-size: 18px;
+    max-height: 40px;
+    min-height: 40px;
+    padding-right: 15px;
+}
+
+.form-group{
+    margin: 10px auto;
+    display: flex;
+    border: 1px #E7E7E7;
+}
+
+.form-group [class*="col-"]:nth-last-child {
+    margin-right: 10px;
+}
+
+.form-group:nth-child(odd){
+    background-color: #f1f0f0;
+}
+
+.error-msg {
+    font-size: 13px;
+    color: red;
+}
+

@@ -1,0 +1,211 @@
+.col-3{
+    width: 30%;
+    margin: 0 10px;
+}
+
+.col-6{
+    width: 70%;
+    margin: 0 10px;
+}
+
+.form-container {
+    width: 1200px;
+    border: none;
+    background-color: appworkspace;
+    border-radius: 5px;
+    margin: auto;
+/*    margin-top: 100px;*/
+}
+
+.form-title{
+    border-top: 1px solid coral;
+    padding: 15px 10px 10px 10px;
+}
+
+.container{
+/*    margin-top: 200px;*/
+    width: 1200px;
+    margin: auto;
+    background-color: #8b8f8f1f;
+    padding: 10px;
+}
+
+.btn{
+    background-color: #3585c5;
+    font-size: inherit;
+    font-family: inherit;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    color: white;
+}
+
+input, select {
+    padding: 5px 15px;
+}
+
+.datetime {
+    width: calc(100% - 34px) !important;
+    font-size: 18px;
+    height: 26px;
+    font-family: inherit;
+}
+
+.form-header{
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+form > *{
+    padding-top:15px !important;
+    padding-bottom:15px !important;
+}
+
+.home-form form-group{
+    display: block;
+}
+
+.table {
+    width: 100%;
+    border-top: #cccccc solid 1px;
+}
+
+.table tr td, .table tr, .table th {
+/*    border-left: 0px solid #ebf4f4;*/
+}
+
+.table th {
+    border: 1px solid #ebf4f4;
+}
+
+.table th{
+    height: 40px;
+}
+
+table tr td {
+    text-align: center;
+    height: 25px;
+    background-color: #cccccc;
+}
+
+.search-group {
+    display: flex;
+    margin-bottom: 10px;
+    border-top: solid 1px #CCCCCC;
+}
+
+.search-group > *{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.col-2{
+    width: 20%;
+}
+
+.btn-search {
+    bottom: 0;
+}
+
+.search-col{
+    display: flex;
+    align-items: flex-end;
+}
+
+.form-label{
+    margin-bottom: 5px;
+}
+
+.tt-icon{
+    width: 30px;
+}
+
+.table-icon {
+    width: 14px;
+    padding-right: 3px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.col-1{
+    width: 10%;
+}
+
+.search-group > div:last-child{
+    margin-left: -10px;
+}
+
+.link{
+    color: #3585c5;
+    bottom: 0;
+    text-decoration: none;
+     
+}
+.add-icon{
+    width: 17px;
+}
+
+.form-group2{
+    display: inline-grid;
+}
+
+.add-icon{
+    margin-right: 3px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: none;
+}
+
+.text-blue{
+    color: #3585c5;
+}
+
+.pl-5{
+    padding-left: 5px;
+}
+
+.active{
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+.paging {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+
+.paging a{
+    padding: 0 3px;
+}
+
+.w-10{
+    width: 10%;
+}
+
+.w-15{
+    width: 15%;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.mr-5{
+    text-align: left;
+    padding-left: 8px;
+}
